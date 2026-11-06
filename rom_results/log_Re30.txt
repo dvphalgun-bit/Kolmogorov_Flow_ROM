@@ -1,0 +1,31 @@
+
+===== Re30 (Re = 30) =====
+POD (invariant): 1501 training snapshots (stride 5), 0.2 s; r = [4 6 8 10 14 20 31]
+  r =  4  Galerkin  field err 2.466  coef err 2.927  t_v   0.8  free run blowup  <D> 1.095 (FOM 0.123)  offline 0.0s  online 0.000s/t
+  r =  4  OpInf     field err 0.618  coef err 0.157  t_v  37.6  free run ok      <D> 0.087 (FOM 0.123)  offline 0.4s  online 0.000s/t
+                  OpInf lam = [100 0.1], cond 3.12e+02, rows 13473 (K/p 99.8 before augmentation), fit resid 0.946, score 0.117 = 0.087 + 0.030
+  r =  4  persistence baseline: field err 0.611  coef err 0.131  t_v  57.8 | projection error (test) 0.599
+  r =  6  Galerkin  field err 2.642  coef err 2.873  t_v   1.3  free run blowup  <D> 1.760 (FOM 0.123)  offline 0.0s  online 0.000s/t
+  r =  6  OpInf     field err 0.519  coef err 0.184  t_v  20.0  free run ok      <D> 0.095 (FOM 0.123)  offline 0.5s  online 0.000s/t
+                  OpInf lam = [100 0.1], cond 3.85e+02, rows 13473 (K/p 53.5 before augmentation), fit resid 0.946, score 0.228 = 0.119 + 0.109
+  r =  6  persistence baseline: field err 0.507  coef err 0.158  t_v  36.4 | projection error (test) 0.481
+  r =  8  Galerkin  field err 1.299  coef err 1.307  t_v   2.9  free run ok      <D> 0.538 (FOM 0.123)  offline 0.0s  online 0.000s/t
+  r =  8  OpInf     field err 0.444  coef err 0.196  t_v  19.2  free run ok      <D> 0.106 (FOM 0.123)  offline 0.8s  online 0.000s/t
+                  OpInf lam = [1 1], cond 4.46e+02, rows 13473 (K/p 33.3 before augmentation), fit resid 0.958, score 0.388 = 0.157 + 0.231
+  r =  8  persistence baseline: field err 0.432  coef err 0.178  t_v  30.7 | projection error (test) 0.385
+  r = 10  Galerkin  field err 0.761  coef err 0.688  t_v   4.5  free run ok      <D> 0.191 (FOM 0.123)  offline 0.1s  online 0.000s/t
+  r = 10  OpInf     field err 0.418  coef err 0.208  t_v  19.0  free run ok      <D> 0.113 (FOM 0.123)  offline 1.4s  online 0.000s/t
+                  OpInf lam = [1e-06 1], cond 5.19e+02, rows 13473 (K/p 22.7 before augmentation), fit resid 0.920, score 0.221 = 0.165 + 0.056
+  r = 10  persistence baseline: field err 0.407  coef err 0.196  t_v  23.9 | projection error (test) 0.341
+  r = 14  Galerkin  field err 0.451  coef err 0.314  t_v   9.8  free run ok      <D> 0.126 (FOM 0.123)  offline 0.2s  online 0.000s/t
+  r = 14  OpInf     field err 0.438  coef err 0.279  t_v  18.2  free run ok      <D> 0.111 (FOM 0.123)  offline 3.1s  online 0.000s/t
+                  OpInf lam = [0.01 1], cond 8.16e+02, rows 13473 (K/p 12.5 before augmentation), fit resid 0.825, score 0.288 = 0.210 + 0.078
+  r = 14  persistence baseline: field err 0.425  coef err 0.267  t_v  16.7 | projection error (test) 0.312
+  r = 20  Galerkin  field err 0.472  coef err 0.383  t_v   8.8  free run ok      <D> 0.137 (FOM 0.123)  offline 0.2s  online 0.000s/t
+  r = 20  OpInf     field err 0.472  coef err 0.367  t_v  12.3  free run ok      <D> 0.166 (FOM 0.123)  offline 7.9s  online 0.000s/t
+                  OpInf lam = [1 1], cond 1.67e+03, rows 13473 (K/p 6.5 before augmentation), fit resid 0.854, score 0.417 = 0.275 + 0.141
+  r = 20  persistence baseline: field err 0.461  coef err 0.358  t_v   7.8 | projection error (test) 0.268
+  r = 31  Galerkin  field err 0.423  coef err 0.350  t_v  11.4  free run ok      <D> 0.112 (FOM 0.123)  offline 0.4s  online 0.000s/t
+  r = 31  OpInf     not built (K/p = 2.8)
+  r = 31  persistence baseline: field err 0.483  coef err 0.416  t_v   6.5 | projection error (test) 0.211
+saved /Users/levi/Documents/AS5401_Kolmogorov/rom_results/rom_Re30.mat

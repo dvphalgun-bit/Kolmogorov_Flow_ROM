@@ -1,0 +1,51 @@
+
+===== parametric ROM: train Re = [20 30 40], test Re = [25 35] =====
+r = 11: Galerkin built in 0.0 s; OpInf lam = [100 1], cond 2.13e+02, rows/unknowns 109.9, fit resid 0.996 (2 s)
+   Re = 20 (train ) POD-Galerkin field err 1.006 coef err 0.968 t_v   1.0 free ok     <D> 0.195 (FOM 0.467) std 0.018 (FOM 0.007)
+   Re = 20 (train ) OpInf        field err 0.432 coef err 0.057 t_v  40.0 free ok     <D> 0.395 (FOM 0.467) std 0.015 (FOM 0.007)
+   Re = 20            persistence  coef err 0.060 t_v  40.0
+   Re = 30 (train ) POD-Galerkin field err 0.614 coef err 0.460 t_v   3.2 free ok     <D> 0.099 (FOM 0.123) std 0.001 (FOM 0.010)
+   Re = 30 (train ) OpInf        field err 0.421 coef err 0.087 t_v  33.7 free ok     <D> 0.069 (FOM 0.123) std 0.015 (FOM 0.010)
+   Re = 30            persistence  coef err 0.086 t_v  31.2
+   Re = 40 (train ) POD-Galerkin field err 0.948 coef err 0.887 t_v   0.7 free ok     <D> 0.059 (FOM 0.090) std 0.000 (FOM 0.024)
+   Re = 40 (train ) OpInf        field err 0.675 coef err 0.165 t_v  19.0 free ok     <D> 0.033 (FOM 0.090) std 0.008 (FOM 0.024)
+   Re = 40            persistence  coef err 0.164 t_v  18.8
+   Re = 25 (UNSEEN) POD-Galerkin field err 0.867 coef err 0.743 t_v   0.5 free ok     <D> 0.136 (FOM 0.159) std 0.002 (FOM 0.000)
+   Re = 25 (UNSEEN) OpInf        field err 0.615 coef err 0.022 t_v  40.0 free ok     <D> 0.178 (FOM 0.159) std 0.025 (FOM 0.000)
+   Re = 25            persistence  coef err 0.019 t_v  40.0
+   Re = 35 (UNSEEN) POD-Galerkin field err 0.921 coef err 0.799 t_v   0.7 free ok     <D> 0.075 (FOM 0.100) std 0.001 (FOM 0.010)
+   Re = 35 (UNSEEN) OpInf        field err 0.697 coef err 0.123 t_v  23.9 free ok     <D> 0.064 (FOM 0.100) std 0.002 (FOM 0.010)
+   Re = 35            persistence  coef err 0.124 t_v  28.2
+r = 21: Galerkin built in 0.3 s; OpInf lam = [1 100], cond 3.75e+02, rows/unknowns 36.0, fit resid 0.992 (7 s)
+   Re = 20 (train ) POD-Galerkin field err 1.037 coef err 1.014 t_v   1.2 free ok     <D> 0.396 (FOM 0.467) std 0.032 (FOM 0.007)
+   Re = 20 (train ) OpInf        field err 0.255 coef err 0.094 t_v  18.2 free ok     <D> 0.469 (FOM 0.467) std 0.023 (FOM 0.007)
+   Re = 20            persistence  coef err 0.118 t_v  12.7
+   Re = 30 (train ) POD-Galerkin field err 0.569 coef err 0.450 t_v   2.6 free ok     <D> 0.255 (FOM 0.123) std 0.048 (FOM 0.010)
+   Re = 30 (train ) OpInf        field err 0.381 coef err 0.138 t_v  31.8 free ok     <D> 0.103 (FOM 0.123) std 0.015 (FOM 0.010)
+   Re = 30            persistence  coef err 0.136 t_v  24.4
+   Re = 40 (train ) POD-Galerkin field err 0.946 coef err 0.879 t_v   0.9 free ok     <D> 0.335 (FOM 0.090) std 0.064 (FOM 0.024)
+   Re = 40 (train ) OpInf        field err 0.582 coef err 0.211 t_v   9.3 free ok     <D> 0.257 (FOM 0.090) std 0.229 (FOM 0.024)
+   Re = 40            persistence  coef err 0.210 t_v  11.6
+   Re = 25 (UNSEEN) POD-Galerkin field err 0.705 coef err 0.557 t_v   1.0 free ok     <D> 0.425 (FOM 0.159) std 0.111 (FOM 0.000)
+   Re = 25 (UNSEEN) OpInf        field err 0.485 coef err 0.018 t_v  40.0 free ok     <D> 0.160 (FOM 0.159) std 0.038 (FOM 0.000)
+   Re = 25            persistence  coef err 0.019 t_v  40.0
+   Re = 35 (UNSEEN) POD-Galerkin field err 0.984 coef err 0.923 t_v   1.1 free ok     <D> 0.361 (FOM 0.100) std 0.082 (FOM 0.010)
+   Re = 35 (UNSEEN) OpInf        field err 0.576 coef err 0.163 t_v  14.0 free ok     <D> 0.080 (FOM 0.100) std 0.009 (FOM 0.010)
+   Re = 35            persistence  coef err 0.161 t_v  18.1
+r = 31: Galerkin built in 0.4 s; OpInf lam = [1 100], cond 5.23e+02, rows/unknowns 17.7, fit resid 0.991 (19 s)
+   Re = 20 (train ) POD-Galerkin field err 1.047 coef err 1.027 t_v   1.2 free ok     <D> 0.472 (FOM 0.467) std 0.070 (FOM 0.007)
+   Re = 20 (train ) OpInf        field err 0.241 coef err 0.097 t_v  19.9 free ok     <D> 0.453 (FOM 0.467) std 0.018 (FOM 0.007)
+   Re = 20            persistence  coef err 0.126 t_v  12.0
+   Re = 30 (train ) POD-Galerkin field err 0.445 coef err 0.345 t_v   4.3 free ok     <D> 0.304 (FOM 0.123) std 0.092 (FOM 0.010)
+   Re = 30 (train ) OpInf        field err 0.332 coef err 0.176 t_v  21.5 free ok     <D> 0.111 (FOM 0.123) std 0.019 (FOM 0.010)
+   Re = 30            persistence  coef err 0.176 t_v  20.8
+   Re = 40 (train ) POD-Galerkin field err 0.880 coef err 0.807 t_v   1.2 free ok     <D> 0.127 (FOM 0.090) std 0.027 (FOM 0.024)
+   Re = 40 (train ) OpInf        field err 0.527 coef err 0.248 t_v   8.4 free ok     <D> 0.385 (FOM 0.090) std 0.347 (FOM 0.024)
+   Re = 40            persistence  coef err 0.247 t_v  10.7
+   Re = 25 (UNSEEN) POD-Galerkin field err 0.518 coef err 0.421 t_v   3.1 free ok     <D> 0.437 (FOM 0.159) std 0.121 (FOM 0.000)
+   Re = 25 (UNSEEN) OpInf        field err 0.304 coef err 0.028 t_v  40.0 free ok     <D> 0.184 (FOM 0.159) std 0.035 (FOM 0.000)
+   Re = 25            persistence  coef err 0.022 t_v  40.0
+   Re = 35 (UNSEEN) POD-Galerkin field err 0.893 coef err 0.813 t_v   1.4 free ok     <D> 0.237 (FOM 0.100) std 0.058 (FOM 0.010)
+   Re = 35 (UNSEEN) OpInf        field err 0.517 coef err 0.196 t_v  10.7 free ok     <D> 0.094 (FOM 0.100) std 0.019 (FOM 0.010)
+   Re = 35            persistence  coef err 0.194 t_v  10.5
+saved /Users/levi/Documents/AS5401_Kolmogorov/rom_results/rom_param.mat

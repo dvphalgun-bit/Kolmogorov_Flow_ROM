@@ -1,0 +1,25 @@
+# large data: regenerate with the scripts (see README)
+*.mat
+rom_data/
+rom_results/superseded_round2/
+rom_results/superseded_round3/
+*.mp4
+
+# macOS
+.DS_Store
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# kept locally, not on GitHub
+paper/
+visualize_kolmogorov.m
+kolmogorov_preview_Re40_burst.gif
+AS5401_Project_Proposal.tex

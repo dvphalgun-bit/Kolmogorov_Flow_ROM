@@ -1,0 +1,32 @@
+
+===== Re30 (Re = 30) =====
+POD: 1501 training snapshots (stride 5), 0.3 s; sigma_30/sigma_1 = 2.54e-02
+  r =  4  Galerkin  field err 0.513  coef err 0.425  t_v   6.0  free run ok      <D> 0.114 (FOM 0.123)  offline 0.0s  online 0.000s/t
+  r =  4  OpInf     field err 0.642  coef err 0.629  t_v   7.7  free run ok      <D> 0.105 (FOM 0.123)  offline 0.1s  online 0.000s/t
+                  OpInf lam = [1e-06 1], cond 2.56e+01, K/p 99.8, fit resid 0.831
+  r =  4  projection error (test) 0.513
+  r =  6  Galerkin  field err 0.630  coef err 0.714  t_v   2.5  free run ok      <D> 0.120 (FOM 0.123)  offline 0.0s  online 0.000s/t
+  r =  6  OpInf     field err 0.718  coef err 0.837  t_v   5.4  free run ok      <D> 0.093 (FOM 0.123)  offline 0.1s  online 0.000s/t
+                  OpInf lam = [1 1], cond 5.44e+01, K/p 53.5, fit resid 0.813
+  r =  6  projection error (test) 0.437
+  r =  8  Galerkin  field err 0.584  coef err 0.670  t_v   3.2  free run ok      <D> 0.150 (FOM 0.123)  offline 0.0s  online 0.000s/t
+  r =  8  OpInf     field err 0.442  coef err 0.447  t_v  14.0  free run ok      <D> 0.095 (FOM 0.123)  offline 0.1s  online 0.000s/t
+                  OpInf lam = [0.01 0.1], cond 2.05e+02, K/p 33.3, fit resid 0.456
+  r =  8  projection error (test) 0.388
+  r = 10  Galerkin  field err 0.731  coef err 0.960  t_v   2.9  free run ok      <D> 0.137 (FOM 0.123)  offline 0.1s  online 0.000s/t
+  r = 10  OpInf     field err 0.581  coef err 0.699  t_v   6.3  free run ok      <D> 0.187 (FOM 0.123)  offline 0.2s  online 0.000s/t
+                  OpInf lam = [1 1], cond 4.66e+02, K/p 22.7, fit resid 0.683
+  r = 10  projection error (test) 0.365
+  r = 14  Galerkin  field err 0.638  coef err 0.760  t_v  12.1  free run ok      <D> 0.128 (FOM 0.123)  offline 0.2s  online 0.000s/t
+  r = 14  OpInf     field err 0.473  coef err 0.540  t_v   7.3  free run ok      <D> 0.112 (FOM 0.123)  offline 0.5s  online 0.000s/t
+                  OpInf lam = [0.01 10], cond 1.02e+04, K/p 12.5, fit resid 0.506
+  r = 14  projection error (test) 0.338
+  r = 20  Galerkin  field err 0.517  coef err 0.629  t_v   6.0  free run ok      <D> 0.128 (FOM 0.123)  offline 0.3s  online 0.000s/t
+  r = 20  OpInf     field err 0.679  coef err 0.885  t_v   3.5  free run ok      <D> 0.099 (FOM 0.123)  offline 1.1s  online 0.000s/t
+                  OpInf lam = [1 10], cond 2.02e+07, K/p 6.5, fit resid 0.741
+  r = 20  projection error (test) 0.298
+  r = 30  Galerkin  field err 0.433  coef err 0.541  t_v   9.0  free run ok      <D> 0.118 (FOM 0.123)  offline 0.5s  online 0.001s/t
+  r = 30  OpInf     field err 0.602  coef err 0.795  t_v   3.6  free run ok      <D> 0.101 (FOM 0.123)  offline 3.1s  online 0.000s/t
+                  OpInf lam = [1 10], cond 6.04e+09, K/p 3.0, fit resid 0.680
+  r = 30  projection error (test) 0.258
+saved /Users/levi/Documents/AS5401_Kolmogorov/rom_results/rom_Re30.mat

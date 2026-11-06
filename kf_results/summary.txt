@@ -1,0 +1,152 @@
+Kolmogorov flow FOM:  N = 128  (state dimension 16384), n = 4
+T = 400, recording from t = 100 every 0.5 -> 601 snapshots per case
+
+Case 1/9: Re = 8, seed = 1 (train), dt = 0.01
+   Re = 8 : t =   40.0 / 400  (11 s)
+   Re = 8 : t =   80.0 / 400  (21 s)
+   Re = 8 : t =  120.0 / 400  (31 s)
+   Re = 8 : t =  160.0 / 400  (41 s)
+   Re = 8 : t =  200.0 / 400  (51 s)
+   Re = 8 : t =  240.0 / 400  (60 s)
+   Re = 8 : t =  280.0 / 400  (69 s)
+   Re = 8 : t =  320.0 / 400  (79 s)
+   Re = 8 : t =  360.0 / 400  (89 s)
+   Re = 8 : t =  400.0 / 400  (98 s)
+   done in 97.9 s, max CFL = 0.12, saved kf_results/case_Re08_s1.mat (16384 x 601)
+
+Case 2/9: Re = 20, seed = 1 (train), dt = 0.01
+   Re = 20 : t =   40.0 / 400  (10 s)
+   Re = 20 : t =   80.0 / 400  (20 s)
+   Re = 20 : t =  120.0 / 400  (30 s)
+   Re = 20 : t =  160.0 / 400  (39 s)
+   Re = 20 : t =  200.0 / 400  (48 s)
+   Re = 20 : t =  240.0 / 400  (58 s)
+   Re = 20 : t =  280.0 / 400  (67 s)
+   Re = 20 : t =  320.0 / 400  (76 s)
+   Re = 20 : t =  360.0 / 400  (85 s)
+   Re = 20 : t =  400.0 / 400  (94 s)
+   done in 93.9 s, max CFL = 0.42, saved kf_results/case_Re20_s1.mat (16384 x 601)
+
+Case 3/9: Re = 30, seed = 1 (train), dt = 0.01
+   Re = 30 : t =   40.0 / 400  (10 s)
+   Re = 30 : t =   80.0 / 400  (19 s)
+   Re = 30 : t =  120.0 / 400  (29 s)
+   Re = 30 : t =  160.0 / 400  (38 s)
+   Re = 30 : t =  200.0 / 400  (47 s)
+   Re = 30 : t =  240.0 / 400  (57 s)
+   Re = 30 : t =  280.0 / 400  (66 s)
+   Re = 30 : t =  320.0 / 400  (75 s)
+   Re = 30 : t =  360.0 / 400  (84 s)
+   Re = 30 : t =  400.0 / 400  (93 s)
+   done in 93.4 s, max CFL = 0.70, saved kf_results/case_Re30_s1.mat (16384 x 601)
+
+Case 4/9: Re = 40, seed = 1 (train), dt = 0.005
+   Re = 40 : t =   40.0 / 400  (20 s)
+   Re = 40 : t =   80.0 / 400  (40 s)
+   Re = 40 : t =  120.0 / 400  (59 s)
+   Re = 40 : t =  160.0 / 400  (77 s)
+   Re = 40 : t =  200.0 / 400  (95 s)
+   Re = 40 : t =  240.0 / 400  (114 s)
+   Re = 40 : t =  280.0 / 400  (132 s)
+   Re = 40 : t =  320.0 / 400  (150 s)
+   Re = 40 : t =  360.0 / 400  (169 s)
+   Re = 40 : t =  400.0 / 400  (187 s)
+   done in 186.8 s, max CFL = 0.46, saved kf_results/case_Re40_s1.mat (16384 x 601)
+
+Case 5/9: Re = 20, seed = 2 (testIC), dt = 0.01
+   Re = 20 : t =   40.0 / 400  (10 s)
+   Re = 20 : t =   80.0 / 400  (19 s)
+   Re = 20 : t =  120.0 / 400  (28 s)
+   Re = 20 : t =  160.0 / 400  (37 s)
+   Re = 20 : t =  200.0 / 400  (46 s)
+   Re = 20 : t =  240.0 / 400  (56 s)
+   Re = 20 : t =  280.0 / 400  (65 s)
+   Re = 20 : t =  320.0 / 400  (74 s)
+   Re = 20 : t =  360.0 / 400  (83 s)
+   Re = 20 : t =  400.0 / 400  (92 s)
+   done in 92.1 s, max CFL = 0.44, saved kf_results/case_Re20_s2.mat (16384 x 601)
+
+Case 6/9: Re = 30, seed = 2 (testIC), dt = 0.01
+   Re = 30 : t =   40.0 / 400  (10 s)
+   Re = 30 : t =   80.0 / 400  (20 s)
+   Re = 30 : t =  120.0 / 400  (29 s)
+   Re = 30 : t =  160.0 / 400  (38 s)
+   Re = 30 : t =  200.0 / 400  (47 s)
+   Re = 30 : t =  240.0 / 400  (57 s)
+   Re = 30 : t =  280.0 / 400  (66 s)
+   Re = 30 : t =  320.0 / 400  (75 s)
+   Re = 30 : t =  360.0 / 400  (85 s)
+   Re = 30 : t =  400.0 / 400  (94 s)
+   done in 94.1 s, max CFL = 0.66, saved kf_results/case_Re30_s2.mat (16384 x 601)
+
+Case 7/9: Re = 40, seed = 2 (testIC), dt = 0.005
+   Re = 40 : t =   40.0 / 400  (20 s)
+   Re = 40 : t =   80.0 / 400  (40 s)
+   Re = 40 : t =  120.0 / 400  (59 s)
+   Re = 40 : t =  160.0 / 400  (78 s)
+   Re = 40 : t =  200.0 / 400  (97 s)
+   Re = 40 : t =  240.0 / 400  (116 s)
+   Re = 40 : t =  280.0 / 400  (134 s)
+   Re = 40 : t =  320.0 / 400  (153 s)
+   Re = 40 : t =  360.0 / 400  (172 s)
+   Re = 40 : t =  400.0 / 400  (190 s)
+   done in 190.0 s, max CFL = 0.50, saved kf_results/case_Re40_s2.mat (16384 x 601)
+
+Case 8/9: Re = 25, seed = 1 (testRe), dt = 0.01
+   Re = 25 : t =   40.0 / 400  (10 s)
+   Re = 25 : t =   80.0 / 400  (19 s)
+   Re = 25 : t =  120.0 / 400  (29 s)
+   Re = 25 : t =  160.0 / 400  (38 s)
+   Re = 25 : t =  200.0 / 400  (47 s)
+   Re = 25 : t =  240.0 / 400  (56 s)
+   Re = 25 : t =  280.0 / 400  (65 s)
+   Re = 25 : t =  320.0 / 400  (75 s)
+   Re = 25 : t =  360.0 / 400  (84 s)
+   Re = 25 : t =  400.0 / 400  (93 s)
+   done in 93.0 s, max CFL = 0.59, saved kf_results/case_Re25_s1.mat (16384 x 601)
+
+Case 9/9: Re = 35, seed = 1 (testRe), dt = 0.005
+   Re = 35 : t =   40.0 / 400  (20 s)
+   Re = 35 : t =   80.0 / 400  (40 s)
+   Re = 35 : t =  120.0 / 400  (59 s)
+   Re = 35 : t =  160.0 / 400  (78 s)
+   Re = 35 : t =  200.0 / 400  (97 s)
+   Re = 35 : t =  240.0 / 400  (115 s)
+   Re = 35 : t =  280.0 / 400  (134 s)
+   Re = 35 : t =  320.0 / 400  (153 s)
+   Re = 35 : t =  360.0 / 400  (172 s)
+   Re = 35 : t =  400.0 / 400  (191 s)
+   done in 190.8 s, max CFL = 0.40, saved kf_results/case_Re35_s1.mat (16384 x 601)
+
+================ VALIDATION / PHYSICAL CHECKS ================
+Re = 8 : ||w - w_laminar|| / ||w_laminar|| at t = T : 5.56e-11
+
+  Re  seed | <D>/D_lam | min D/D_lam | max D/D_lam | <E>/E_lam | |<I>-<D>|/<D> | dE/dt residual | max CFL | E(k_max)/E_peak
+   8   1   |   1.0000  |    1.0000   |    1.0000   |   1.0000  |   5.64e-11    |    5.56e-11    |   0.12  |   2.03e-39
+  20   1   |   0.4673  |    0.4511   |    0.4884   |   0.6374  |   2.07e-05    |    4.14e-07    |   0.42  |   6.98e-21
+  30   1   |   0.1232  |    0.1007   |    0.1418   |   0.5774  |   6.41e-05    |    6.06e-06    |   0.70  |   2.65e-19
+  40   1   |   0.0939  |    0.0627   |    0.2445   |   0.4357  |   2.27e-03    |    2.45e-04    |   0.46  |   7.58e-15
+  20   2   |   0.2330  |    0.2330   |    0.2337   |   0.7673  |   3.09e-05    |    2.60e-10    |   0.44  |   8.74e-25
+  30   2   |   0.1241  |    0.1001   |    0.1420   |   0.5777  |   1.34e-04    |    6.85e-06    |   0.66  |   2.65e-19
+  40   2   |   0.0971  |    0.0608   |    0.2831   |   0.4356  |   5.45e-05    |    1.79e-04    |   0.50  |   2.31e-14
+  25   1   |   0.1588  |    0.1581   |    0.1600   |   0.6735  |   1.82e-05    |    5.49e-09    |   0.59  |   1.02e-21
+  35   1   |   0.0997  |    0.0770   |    0.1230   |   0.5103  |   6.72e-05    |    2.29e-05    |   0.40  |   1.06e-17
+
+Dominant frequency of D(t) in the recorded window (share of fluctuation power):
+  Re =  8 : steady (std(D)/<D> = 1.0e-10)
+  Re = 20 : f = 0.0767 (period 13.05), 71.5 % of power
+  Re = 30 : f = 0.0500 (period 20.00), 59.7 % of power
+  Re = 40 : f = 0.0133 (period 75.01), 15.6 % of power
+
+================ PRELIMINARY POD (training cases) ================
+  Re | r for 90% | r for 99% | r for 99.9% energy  (mean-subtracted snapshots)
+   8 | steady (std(D)/<D> = 1.0e-10), skipped
+  20 |      6    |     18    |     33
+  30 |      7    |     30    |     63
+  40 |     39    |    112    |    196
+
+================ DATASET ================
+Each case_ReXX_sY.mat contains W of size 16384 x 601 (single precision):
+  row i    = vorticity at grid point i of the 128 x 128 grid (column-major, reshape(W(:,j),N,N))
+  column j = snapshot at time t_snap(j), t in [100, 400], dt_save = 0.5
+Total FOM wall-clock time: 1132.0 s

@@ -1,0 +1,18 @@
+
+===== burst / closure diagnostics (Re = 40) =====
+337 of 10001 snapshots are bursts (D > 0.15 D_lam)
+  r | proj. err quiet | proj. err burst | D/D_lam at t = 394.1: 0.244 ->
+ 10 |     0.604       |     0.870       |  0.025
+ 20 |     0.534       |     0.816       |  0.053
+ 30 |     0.474       |     0.760       |  0.084
+ 40 |     0.433       |     0.651       |  0.165
+ 60 |     0.359       |     0.514       |  0.196
+
+  Energy budget of the resolved fluctuations, d(|a|^2/2)/dt = a . da/dt  (mean over training snapshots)
+  r | rhs error: Gal   OpInf | quiet: true    Gal      OpInf  | burst: true    Gal      OpInf  | OpInf share of closure drain q/b | max eig sym(A) Gal  OpInf
+ 10 |         4.14   0.99  |    -18.1  16481.7      0.7 |    371.1  11973.6     12.0 |           1.00 /  1.03           |     1.000   0.009
+ 20 |         3.02   1.00  |      1.3  13412.0      6.8 |    -18.8   7205.2     22.9 |           1.00 /  0.99           |     1.000   0.026
+ 30 |         2.38   0.99  |     12.2  11686.4     -6.2 |   -246.7   5500.2    120.6 |           1.00 /  0.94           |     1.002   0.032
+ 41 |         2.01   0.98  |     45.8   9155.3     42.8 |   -947.5  24205.5    247.6 |           1.00 /  0.95           |     1.003   0.000
+ 61 |         1.50   0.95  |     48.4   7681.3     62.2 |   -942.6  18817.3    467.0 |           1.00 /  0.93           |     1.003   0.016
+saved /Users/levi/Documents/AS5401_Kolmogorov/rom_results/diag_Re40.mat
