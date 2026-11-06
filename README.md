@@ -9,23 +9,18 @@ This repository holds:
   - **POD-Galerkin** (intrusive);
   - **Operator Inference, OpInf** (non-intrusive).
 
-The paper describing the method and results is in `paper/AS5401_ROM_Paper.pdf`.
-
 ## File organisation
 
 ```
 .
 ├── kolmogorov_solver.m        FOM: pseudo-spectral solver (IFRK4, 2/3 dealiasing)
-├── run_kolmogorov_fom.m       FOM runs for the proposal (Re = 8-40, two seeds) -> kf_results/
-├── visualize_kolmogorov.m     animation / slider viewer for a saved FOM case
-├── AS5401_Project_Proposal.tex
-├── kolmogorov_preview_Re40_burst.gif
+├── run_kolmogorov_fom.m       FOM runs (Re = 8-40, two seeds) -> kf_results/
 ├── kf_results/                FOM figures fig1-fig7 and summary.txt   (case_*.mat not in git)
 ├── rom/                       ROM study (all scripts below)
 ├── rom_data/                  fine-sampled FOM data for the ROMs     (not in git, regenerate)
 ├── rom_results/               ROM results: logs, summary_tables.txt, figures/ (*.mat not in git)
 │   └── baseline_standard_POD/ logs of the first run with ordinary POD (for Fig. r1)
-└── paper/                     final paper (LaTeX source, PDF, figures used)
+└── README.md
 ```
 
 ### Scripts in `rom/`
@@ -57,13 +52,12 @@ The list below goes in pipeline order; helper functions are listed under the ste
 
 - **MATLAB** (developed with a recent release; R2020b or newer should work). Only base MATLAB is needed (`fft2`, `ode45`, `qr`, `histogram`); no toolboxes are required.
 - About **2 GB of free disk space** for the generated data, and 8 GB of RAM or more.
-- To compile the paper: LaTeX with the `IEEEtran` class. The repository includes the compiled PDF.
 
 ## How to reproduce the results
 
 Run everything from MATLAB with the repository root as the current folder. Approximate run times on a laptop are given for each step.
 
-1. **FOM runs for the proposal (optional, about 30 min).** These create `kf_results/case_*.mat`. They are needed for the new-initial-condition and unseen-Re test files.
+1. **FOM runs (about 30 min).** These create `kf_results/case_*.mat`, which the ROM study uses as the new-initial-condition and unseen-Re test data.
    ```matlab
    run_kolmogorov_fom          % set quick_test = true first for a 1-2 min check
    ```
@@ -82,12 +76,8 @@ Run everything from MATLAB with the repository root as the current folder. Appro
    ```
    - The standard-POD curve in `fig_r1` needs `rom_results/baseline_standard_POD/rom_Re20.mat` and `rom_Re40.mat`.
    - To create them, set `base.basis = 'standard'` in `run_all_rom.m`, run the `Re20` and `Re40` steps, move the resulting `rom_Re*.mat` files into that folder, and restore `'invariant'`.
-5. **Viewing a FOM case (optional).**
-   ```matlab
-   visualize_kolmogorov('kf_results/case_Re40_s1.mat', 280, 340)
-   ```
 
-## Main results (see the paper for details)
+## Main results
 
 - **Re = 20 (relative periodic orbit):**
   - OpInf stays accurate over the full 60-time-unit test horizon for r ≤ 20.
