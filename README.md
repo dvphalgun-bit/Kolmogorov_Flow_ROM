@@ -2,6 +2,14 @@
 
 AS5401 Data-Driven Modelling, final project, IIT Madras.
 
+**Repository:** https://github.com/dvphalgun-bit/Kolmogorov_Flow_ROM
+
+To get a copy of the code:
+
+```bash
+git clone https://github.com/dvphalgun-bit/Kolmogorov_Flow_ROM.git
+```
+
 This repository holds:
 
 - A full-order model (FOM) of two-dimensional Kolmogorov flow: a pseudo-spectral DNS of the vorticity equation on a 128 × 128 doubly periodic grid, with forcing −4 cos(4y).
